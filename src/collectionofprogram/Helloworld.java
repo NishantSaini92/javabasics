@@ -1,4 +1,6 @@
 package collectionofprogram;
+//package is like folder in computer
+//You can put related classes and interfaces in it
 
 public class Helloworld {// Helloworld is name of class.
 	//main method is static,so that JVM can call it without creating class instance.
