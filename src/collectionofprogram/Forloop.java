@@ -7,6 +7,17 @@ public static void main(String[] args) {
 		System.out.println(i);
 	}
 	
+	//a different way to use for loop on array
+	
+	int[] array1=new int[2];
+	array1[0]=2;
+	array1[1]=32;
+	for(int x3:array1)
+	{
+		System.out.println(x3);
+	}
+	
+	
 	//another way to use this loop
 	int i1=0;//initialization
 	for(;;)
