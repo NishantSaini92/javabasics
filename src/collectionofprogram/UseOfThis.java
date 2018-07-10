@@ -9,12 +9,12 @@ public class UseOfThis {
 	}
 	public UseOfThis(int s)
 	{
-	this.s=s;//this.s will refer to variable1
+	this.s=s;//this.s will refer to variable1,UseOfThis.s can also be used
 	System.out.println(s);
 	}
 	public void display(int s)
 	{
-		this.s=s;//UseOfThis.s
+		this.s=s;//UseOfThis.s can also used 
 	}
 	
 
