@@ -20,12 +20,19 @@ public class CollectionArrayList {
 		{
 			System.out.println(arlist.get(i));
 		}
-		//another way to display
+		//second  way to display
 		System.out.println("second way:");
 		Iterator obj=arlist.iterator();//Iterator which iterate the list
 		while(obj.hasNext())//hasNext check:Is there any next element
 		{
 			System.out.println(obj.next());//next give us the next element
+		}
+		
+		//third way 
+		System.out.println("Third way:");
+		for(int x:arlist)
+		{
+			System.out.println(x);
 		}
 	}
 
