@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 //no order is maintained 
 //unique keys
-//accept null values
+//accept null values and one null key
 public class CollectionHashMap {
 
 	public static void main(String[] args) {

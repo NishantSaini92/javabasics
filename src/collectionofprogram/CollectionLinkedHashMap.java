@@ -5,6 +5,7 @@ import java.util.*;
 
 public class CollectionLinkedHashMap {
     //insertion order
+	//have one null key and multiple null values
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		LinkedHashMap<Integer,String> lhm=new LinkedHashMap<Integer,String>();
